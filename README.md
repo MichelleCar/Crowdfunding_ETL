@@ -1,4 +1,4 @@
-# Extract, transform, and load (ETL) - Crowdfunding Case Study
+# Extract, Transform, and Load (ETL) - Crowdfunding Case Study
 ![ezgif com-gif-maker--1-](https://user-images.githubusercontent.com/115101031/214898164-a525647c-e9d6-40db-9956-c4694b86b66b.png)
 
 ## What is ETL?
