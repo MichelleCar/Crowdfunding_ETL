@@ -1,4 +1,4 @@
-# Extract, transform, and load (ETL) - A Crowdfunding Case Study
+# Extract, transform, and load (ETL) - Crowdfunding Case Study
 ![ezgif com-gif-maker--1-](https://user-images.githubusercontent.com/115101031/214898164-a525647c-e9d6-40db-9956-c4694b86b66b.png)
 
 ## What is ETL?
@@ -17,13 +17,33 @@ ETL is a type of data integration that refers to the three steps (extract, trans
 * By providing a consolidated view, ETL makes it easier for users to analyze and report on data relevant to their initiatives.
 * Users can combine legacy data with data from new platforms and applications. You can view older datasets alongside more recent information, which gives you a long-term view of data.
 
+ETL helps ensure good data hygiene and improved data analytics. In the real world, ETL tools perform many important functions like:
+* Reconciling different data formats to move data from legacy systems to modern technology.
+* Syncing external data from vendors, customers, suppliers.
+* Consolidating data from multiple overlapping systems.
+* Combining transactional data so that it can be understood by users.
 
+#### Common ETL Challenges:
+* One of the most notable challenges has to do with the sheer amount of available data. When tackling massive data sets, it’s not uncommon for ETL tools to make mistakes, lose data, or collect corrupted or irrelevant data.
+* Disparate data sources are another big challenge. Not every source database and destination system are aligned. In such cases, you may need to conduct a host of different data transformations. It could also lead to redundant or duplicate data and compromise data integrity and quality. You could have trouble normalizing your data warehouse or data lake.
 
 Sources:
 * https://medium.datadriveninvestor.com/understanding-extract-transform-and-load-etl-and-its-necessity-in-data-analytics-world-with-an-64346016153d
 * https://www.sas.com/en_ca/insights/data-management/what-is-etl.html#etl-importance
 * https://aws.amazon.com/what-is/etl/ 
+* https://pandio.com/what-is-etl-benefits-challenges-recent-advances/
+* https://www.simplilearn.com/what-is-etl-process-article#:~:text=Why%20Is%20ETL%20Important%3F,legacy%20systems%20to%20modern%20technology 
+
+## Scope of Project
+Provided with two Excel files (contacts.xlsx and crowdfunding.xlsx), the ETL project entailed: 
+1) Building an ETL pipeline beginning with importing and **extracting** relevant data into a DataFrame
+2) **Transform** the data and create CSV files
+3) Create Entity Relationship Diagram (ERD) and table schema, and **load** CSV file data into Postgres database
+
+![1_xyHfm-oLm_Tr6S-Na0SkCA](https://user-images.githubusercontent.com/115101031/214926798-688497eb-0ad1-4b7e-8518-cebfc170463e.jpeg)
+
+#### Methodology
 
 
-ETL project: 1) build ETL pipeline, 3) Create CSV files and create ERD and table schema, 4) Upload CSV file data into Postgres database
+
 
