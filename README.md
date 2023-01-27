@@ -70,5 +70,10 @@ In the load phase of the project, we sketched an ERD of the tables by using Quic
 Finally, we loaded each CSV file into our a database named crowdfunding_db and created the tables.
 <img width="1007" alt="crowdfunding_db table screenshots" src="https://user-images.githubusercontent.com/115101031/214982165-8f9e037a-2d1d-4e80-b761-7e610212a08e.png">
 
-
-
+## Observations and Conclusions
+* Using ETL allows you to break down data silos and makes it easy to access and analyze data, and in the real world, help organizations make informed decisions. 
+* ETL helps you synthesize large amounts of information, and gives you the tools to decide which information you want to collect, how you want to transform it, and how you want to make it accessible to others.
+* Taking the case study used in this project, using two Excel files, we created a database with four tables, each providing a key to further actions and analysis.
+    * For example:
+        * Using the category and subcategory values to determine the most effective and successful crowdfunding ventures
+        * 
