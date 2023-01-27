@@ -59,6 +59,16 @@ After importing the crowdfunding.xlsx file, we extracted and transformed the dat
 
 <img width="1095" alt="Screenshot 2023-01-26 at 7 16 33 PM" src="https://user-images.githubusercontent.com/115101031/214979029-87466396-f90f-457b-8575-26e85b7b779b.png">
 
+The extraction and transformation of the contacts.xlsx provided the last of our CSV files.
+
+<img width="508" alt="Screenshot 2023-01-26 at 7 21 54 PM" src="https://user-images.githubusercontent.com/115101031/214979973-fb13ea57-db75-4cd4-84ca-99fbf1887d49.png">
+
+In the load phase of the project, we sketched an ERD of the tables by using QuickDBD. Using the information from the ERD, we created a table schema for each CSV file.
+
+<img width="541" alt="Screenshot 2023-01-26 at 7 26 23 PM" src="https://user-images.githubusercontent.com/115101031/214980270-e94233d9-2367-4dbe-b8a4-47d01f6f9415.png">
+
+Finally, we loaded each CSV file into our a database named crowdfunding_db and created the tables.
+<img width="1007" alt="crowdfunding_db table screenshots" src="https://user-images.githubusercontent.com/115101031/214982165-8f9e037a-2d1d-4e80-b761-7e610212a08e.png">
 
 
 
