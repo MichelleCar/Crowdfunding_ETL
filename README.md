@@ -75,5 +75,5 @@ Finally, we loaded each CSV file into our a database named crowdfunding_db and c
 * ETL helps you synthesize large amounts of information, and gives you the tools to decide which information you want to collect, how you want to transform it, and how you want to make it accessible to others.
 * Taking the case study used in this project, using two Excel files, we created a database with four tables, each providing a key to further actions and analysis.
     * For example:
-        * Using the category and subcategory values to determine the most effective and successful crowdfunding ventures
-        * 
+        * Using the category and subcategory values to determine the most effective and successful crowdfunding campaigns (by amount pledged, by the duration of the campaign, by their ability to reach or exceed their goal, by the amount of backers they had, and more)
+        * We could use the contacts table to develop an interest pool for new ideas, a knowledgebase for collaboration, or support for other projects
