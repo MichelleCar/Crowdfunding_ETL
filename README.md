@@ -55,7 +55,8 @@ Python is an elegant, versatile language with an ecosystem of powerful modules a
 
 After importing the crowdfunding.xlsx file, we extracted and transformed the data into a "category" and "subcategory" dataframe, which would later be merged with our "campaign" dataframe.  Once transformed, each of the "category", "subcategory", and "campaign" dataframes were exported as CSV files.
 
-<img width="810" alt="Screenshot 2023-01-26 at 7 08 23 PM" src="https://user-images.githubusercontent.com/115101031/214978701-32f5bfcc-c100-4101-9b19-5b56b648a996.png">
+<img width="631" alt="Screenshot 2023-01-26 at 7 22 42 PM" src="https://user-images.githubusercontent.com/115101031/214979803-271f7ab3-12b8-4711-b1e5-04c955be5cb1.png">
+
 <img width="1095" alt="Screenshot 2023-01-26 at 7 16 33 PM" src="https://user-images.githubusercontent.com/115101031/214979029-87466396-f90f-457b-8575-26e85b7b779b.png">
 
 
