@@ -36,13 +36,27 @@ Sources:
 
 ## Scope of Project
 Provided with two Excel files (contacts.xlsx and crowdfunding.xlsx), the ETL project entailed: 
-1) Building an ETL pipeline beginning with importing and **extracting** relevant data into a DataFrame
-2) **Transform** the data and create CSV files
-3) Create Entity Relationship Diagram (ERD) and table schema, and **load** CSV file data into Postgres database
+1) Building an ETL pipeline beginning with importing and **EXTRACTING** relevant data into a DataFrame
+2) **TRANSFORM** the data and create CSV files
+3) Create Entity Relationship Diagram (ERD) and table schema, and **LOAD** CSV file data into Postgres database
 
 ![1_xyHfm-oLm_Tr6S-Na0SkCA](https://user-images.githubusercontent.com/115101031/214926798-688497eb-0ad1-4b7e-8518-cebfc170463e.jpeg)
 
 #### Methodology
+The scope of the project is carried out in the following way:
+1) Create the Category and Subcategory DataFrames
+2) Create the Campaign DataFrame
+3) Create the Contacts DataFrame
+4) Create the Crowdfunding Database
+
+For the first three tasks, we have created Jupyter Notebook, using Python as our modus operandi, importing Pandas, Numpy, JSON, and Datetime libraries. For the last step we employ SQL with Postgres.
+
+Python is an elegant, versatile language with an ecosystem of powerful modules and code libraries. Python's strengths lie in working with indexed data structures and dictionaries, which are important in ETL operations. The Python Pandas library is a painless way to accomplish Extract-Transform-Load (ETL).
+
+After importing the crowdfunding.xlsx file, we extracted and transformed the data into a "category" and "subcategory" dataframe, which would later be merged with our "campaign" dataframe.  Once transformed, each of the "category", "subcategory", and "campaign" dataframes were exported as CSV files.
+
+<img width="810" alt="Screenshot 2023-01-26 at 7 08 23 PM" src="https://user-images.githubusercontent.com/115101031/214978701-32f5bfcc-c100-4101-9b19-5b56b648a996.png">
+<img width="1095" alt="Screenshot 2023-01-26 at 7 16 33 PM" src="https://user-images.githubusercontent.com/115101031/214979029-87466396-f90f-457b-8575-26e85b7b779b.png">
 
 
 
